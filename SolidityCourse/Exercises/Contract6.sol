@@ -1,5 +1,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
+//Smart contract for selling our utility token
+
 interface MyToken{
     function decimals() external view returns(uint8);
     function balanceOf(address _address) external view returns(uint256);

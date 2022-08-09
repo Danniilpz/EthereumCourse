@@ -1,6 +1,4 @@
-pragma solidity >=0.7.0 <0.9.0;
-
-//Utility Token
+ pragma solidity >=0.7.0 <0.9.0;
 
 contract MyToken{
     string public name;
