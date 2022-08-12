@@ -1,4 +1,8 @@
+//SPDX-License-Identifier: MIT
+
 pragma solidity >=0.7.0 <0.9.0;
+
+//Simple counter
 
 contract Contador{
     uint256 count;

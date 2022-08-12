@@ -1,6 +1,8 @@
+//SPDX-License-Identifier: MIT
+
 pragma solidity >=0.7.0 <0.9.0;
 
-//Smart contract for selling our utility token
+//Smart contract for selling our utility token ERC-20
 
 interface MyToken{
     function decimals() external view returns(uint8);

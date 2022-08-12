@@ -1,6 +1,8 @@
+//SPDX-License-Identifier: MIT
+
 pragma solidity >=0.7.0 <0.9.0;
 
-//Utility Token
+//Utility Token ERC-20
 
 contract MyToken{
     string public name;
