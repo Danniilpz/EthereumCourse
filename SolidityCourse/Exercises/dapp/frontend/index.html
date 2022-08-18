@@ -21,7 +21,7 @@
 
             <input id="addressGetBalance" type="text" class="form-control" placeholder="Introduce una address">
             <button class="btn btn-success" type="button" id="btnGetBalance">Ver el balance</button>
-            <p class="col-12 text-center p-3 h6 bg-secondary text-white mt-3">Balance:</p>
+            <p class="col-12 text-center p-3 h6 bg-secondary text-white mt-3">Balance: <span id="balance">0</span> ACOIN</p>
         </div>
         <br><br><br>
         <p>Realizar una transferencia a una cuenta:</p>
@@ -34,8 +34,7 @@
             <span class="input-group-text">Cantidad:</span>
             <input type="number" class="form-control" id="cantidad" placeholder="Cantidad de ACOIN a transferir">
         </div>
-        <button class="btn btn-success d-block" style="margin-left: auto;" id="TRANSFERIR">TRANSFERIR</button>
-
+        <button class="btn btn-success d-block" style="margin-left: auto;" id="transferir">TRANSFERIR</button>
     </div>
 
 </body>
