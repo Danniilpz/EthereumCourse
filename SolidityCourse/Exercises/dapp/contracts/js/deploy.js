@@ -2,7 +2,7 @@ const HDWalletProvider= require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const { abi,bytecode } = require('./compile');
 
-const mnemonic = "chronic discover chronic damage erase music resource exclude soda bronze slab broom";
+const mnemonic = "weasel govern exhaust tenant kangaroo negative private train cereal gadget monitor include";
 const provider = new HDWalletProvider(mnemonic,'http://localhost:8545');
 
 const web3 = new Web3(provider);
@@ -29,5 +29,3 @@ const deploy = async() => {
     console.log(JSON.stringify(result.options.jsonInterface));
 }
 deploy();
-
-//0x673fc6fa8f26e983cf024460286c78cdfddb7287
